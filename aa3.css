@@ -28,6 +28,7 @@ body {
 .box1 {
     border: 2px solid #ec4d37;
     margin: 2px;
+    padding: 5px;
 }
 
 .box2 {
