@@ -1,5 +1,6 @@
 body {
-    background-color: #1d1b1b;
+    /*background-color: #1d1b1b;*/
+    backgroung: url(https://raw.githubusercontent.com/guiidd/somePic/master/cropped-851-315-279264.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin: 30px;
