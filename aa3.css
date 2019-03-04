@@ -1,5 +1,8 @@
 body {
-    background-color: #1d1b1b;
+    /*background-color: #1d1b1b;*/
+    background: url("https://images4.alphacoders.com/279/thumb-1920-279264.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     margin: 30px;
     font-family: "Righteous", cursive;
     text-align: center;
