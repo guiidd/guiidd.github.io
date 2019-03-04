@@ -73,7 +73,7 @@ body {
     color: white;
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (orientation : portrait) {
   /* For mobile phones: */
   [class*="nav1Box"] {
     flex-direction: column;
