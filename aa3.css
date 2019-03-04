@@ -96,6 +96,7 @@ body {
    body {
     background: url("https://raw.githubusercontent.com/guiidd/somePic/master/cropped-480-800-279264.jpg");
     background-size: cover;
+    background-attachment: fixed;
   }
 }
 
