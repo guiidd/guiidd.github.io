@@ -172,7 +172,7 @@
               (this.props.state.SubHead2 && this.props.number === 2) ||
               (this.props.state.SubHead3 && this.props.number === 3) ? (
                 <div>
-                  <div>
+                  <div className="vertical-center">
                     <h3 onClick={e => this.props.changeSub(this.props.number)} className="tru">
                       <i>{this.props.heading}</i> 
                     </h3>
@@ -180,7 +180,7 @@
                 </div>
               ) : (
                 <div>
-                  <div>
+                  <div className="vertical-center">
                     <h3 onClick={e => this.props.changeSub(this.props.number)}>
                       {this.props.heading}
                     </h3>
