@@ -93,6 +93,10 @@ body {
   [class*="nav1Box"] {
     flex-direction: column;
   }
+    
+   body {
+    background: url("https://raw.githubusercontent.com/guiidd/somePic/master/cropped-480-800-279264.jpg");
+  }
 }
 
 .vertical-center {
