@@ -14,7 +14,7 @@ body {
     border: 2px solid #295f2d;
 }
 
-.navBox {
+.nav1Box {
     display: flex;
     flex-direction: row;
     background-color: #8aaae5;
@@ -72,3 +72,11 @@ body {
 .tru {
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="nav1Box"] {
+    flex-direction: column;
+  }
+}
+
