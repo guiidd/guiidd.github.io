@@ -197,6 +197,13 @@
         constructor(props) {
           super(props);
         }
+        
+        gen_mail_to_link=(lhs, rhs)=> {
+            document.write("<a href=\"mailto");
+            document.write(":" + lhs + "@");
+            document.write(rhs + "\" target=\"blank\" ><i className=\"fas fa-envelope-square\"/>send a mail</a>");
+            }
+
         render() {
           if (this.props.state.SubHead1 === true) {
             return (
@@ -265,11 +272,11 @@ function gen_mail_to_link(lhs, rhs) {
   document.write("<a href=\"mailto");
   document.write(":" + lhs + "@");
   document.write(rhs + "\" target=\"blank\" ><i className=\"fas fa-envelope-square\"/>send a mail</a>");
-}
+}*/}
 
 
-gen_mail_to_link('ha.azwan', 'yahoo.com');
-                  */}</li>
+{gen_mail_to_link('ha.azwan', 'yahoo.com')}
+                  </li>
                 </ul>
               </div>
             );
