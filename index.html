@@ -199,7 +199,7 @@
         }
         
         gen_mail_to_link=(lhs, rhs)=> {
-            return {__html: `<h1>${lhs} and ${rhs}</h1>`}
+            return {__html: `<a href="mailto:${lhs}@${rhs}"><i className="fas fa-envelope-square"/>send mail</a>`}
             //document.write("<a href=\"mailto");
             //document.write(":" + lhs + "@");
             //document.write(rhs + "\" target=\"blank\" ><i className=\"fas fa-envelope-square\"/>send a mail</a>");
