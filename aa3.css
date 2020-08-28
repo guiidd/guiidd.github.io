@@ -132,4 +132,10 @@ body {
     background:#8aaae5; 
     width:30%; 
     height:20px; 
- } 
+ }
+.mar1{
+    margin-left: 85%;
+}
+.mar2{
+    margin-left: 80%;
+}
