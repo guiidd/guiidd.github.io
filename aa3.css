@@ -108,26 +108,26 @@ body {
   text-align: center;
 }
 
-#leftbox { 
+.leftbox { 
    float:left;  
    background:white; 
    width:30%; 
    height:280px;
   
  } 
-#middlebox{ 
+.middlebox{ 
     float:left;  
     background:white; 
     width:20%; 
     height:280px; 
  }
-#middlebox1{
+.middlebox1{
     float:left;  
     background:white; 
     width:20%; 
     height:280px;
  }
-#rightbox{ 
+.rightbox{ 
     float:right; 
     background:white; 
     width:30%; 
