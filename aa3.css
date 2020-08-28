@@ -112,24 +112,24 @@ body {
    float:left;  
    background:white; 
    width:30%; 
-   height:280px;
+   height:20px;
   
  } 
 .middlebox{ 
     float:left;  
     background:white; 
     width:20%; 
-    height:280px; 
+    height:20px; 
  }
 .middlebox1{
     float:left;  
     background:white; 
     width:20%; 
-    height:280px;
+    height:20px;
  }
 .rightbox{ 
     float:right; 
     background:white; 
     width:30%; 
-    height:280px; 
+    height:20px; 
  } 
