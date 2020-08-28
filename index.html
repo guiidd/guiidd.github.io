@@ -198,6 +198,9 @@
           super(props);
         }
         
+        gen_twitter_to_link=(tr,tw,num,az)=> {
+            return {__html: `<a href="https://${tw}${tr}.com/${az}${num}" target="blank"><i className="fab fa-twitter-square" />twitter</a>`}
+            }
         gen_mail_to_link=(w,y,h,o)=> {
             return {__html: `<a href="mailto:${h}${w}@${y}${o}">send a mail</a>`}
             //document.write("<a href=\"mailto");
@@ -265,8 +268,8 @@
                 <h1>Contacts</h1>
                 <ul className="inline">
                   <li>
-<a href="https://twitter.com/azwh2012" target="blank"><i className="fab fa-twitter-square" />twitter
-                    </a>
+                   <i className="fab fa-twitter-square" />
+                   <div dangerouslySetInnerHTML={this.gen_twitter_to_link('ter','twit','2012','azwh')}/>
                   </li>
                   <li>
                    <i className="fas fa-envelope-square" />
