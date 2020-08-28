@@ -266,16 +266,16 @@
             return (
               <div className="bg1">
                 <h1>Contacts</h1>
-                <ul className="inline">
-                  <li>
-                   <i className="fab fa-twitter-square" />
-                   <div dangerouslySetInnerHTML={this.gen_twitter_to_link('ter','twit','2012','azwh')}/>
-                  </li>
-                  <li>
-                   <i className="fas fa-envelope-square" />
-                   <div dangerouslySetInnerHTML={this.gen_mail_to_link('wan','yah','ha.az','oo.com')}/>
-                  </li>    
-                </ul>
+                
+                  
+                   <div id="leftbox" style="margin-left:85%;"><i className="fab fa-twitter-square" /></div>
+                   <div id="middlebox"><div dangerouslySetInnerHTML={this.gen_twitter_to_link('ter','twit','2012','azwh')}/></div>
+                  
+                 
+                   <div id="middlebox1" style="margin-left:80%;"><i className="fas fa-envelope-square" /></div>
+                   <div id="rightbox"><div dangerouslySetInnerHTML={this.gen_mail_to_link('wan','yah','ha.az','oo.com')}/></div>
+                      
+                
               </div>
             );
           } else {
